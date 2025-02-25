@@ -1,0 +1,7 @@
+# Base
+pyTelegramBotAPI==4.25.0
+pydantic==2.8.2
+pydantic-settings==2.7.0
+loguru==0.7.3
+aiohttp==3.11.11
+typing-inspect==0.9.0

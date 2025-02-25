@@ -1,0 +1,9 @@
+services:
+  bot:
+    build: ./app
+    restart: always
+    command: python3 main.py
+    volumes:
+      - ./logs/:/opt/projects/app/logs/
+    env_file:
+      - ./.env/prod.env
